@@ -1,0 +1,9 @@
+#list {
+  width: 90%;
+}
+#list thead,
+#list td {
+  text-align: center;
+  padding: 4px;
+  border-bottom: solid 1px cornflowerblue;
+}

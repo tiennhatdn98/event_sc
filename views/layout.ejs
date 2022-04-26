@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="http://localhost:3000" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./process.js"></script>
+    <script src="./scripts/web3.js"></script>
+    <link rel="stylesheet" href="./layout.css" />
+    <title>Minigame</title>
+  </head>
+  <body>
+    <h2>Minigame</h2>
+    <button id="btnConnectMM">Connect to Metamask</button>
+    <div class="form">
+      <input type="text" id="name" placeholder="Fullname" />
+      <input type="email" id="email" placeholder="E-mail" />
+      <input type="number" id="age" placeholder="Age" />
+      <button id="btnSignUp">Sign Up</button>
+    </div>
+    <div id="listStudents">
+      <table id="list">
+        <thead class="header">
+          <tr>
+            <td>_ID</td>
+            <td>Address</td>
+          </tr>
+        </thead>
+        <tbody class="info"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
